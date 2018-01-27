@@ -4,15 +4,15 @@
 
 # Site
 title: johnnykramer
-subtitle:
-description: Full-stack Javascript Developer
+subtitle: I ❤️ CODE
+description: johnnykramer full-stack javascript developer
 author: johnnykramer
 language: en
 timezone: Asia/Harbin
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://johnnykramer.github.io
+url: https://johnnykramer.ninja
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -75,6 +75,9 @@ pagination_dir: page
 # theme: landscape
 theme: cactus-dark
 
+plugins:
+  hexo-generator-cname  
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -82,3 +85,9 @@ deploy:
   repo: https://github.com/johnnykramer/johnnykramer.github.io
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+admin:
+  username: johnnykramer
+  password_hash: $2a$10$NDwG36cFre2ML3mK9WANU.wHoYeYPP36mOhi7LsX9IkhydlpHJM6W
+  secret: 3#V6W%%VE^5rv65srv^E%B&%482W&V^YW$%EV%^URIe$%7e56B*%^N*%6sn4b7e64tben5du3
+  deployCommand: hexo

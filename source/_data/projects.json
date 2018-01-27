@@ -1,0 +1,37 @@
+[
+  {
+    "year": "2018",
+    "projects": [
+      {
+        "name": "Crypto Reporter",
+        "url": "https://t.me/johnnykramer",
+        "desc": "Telegram bot notifies when crypto exchanges adds new coins/tokens. Contact me if you need details or access."
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "projects": [
+      {
+        "name": "tglogger",
+        "url": "https://github.com/johnnykramer/tglogger",
+        "desc": "npm package which able to log any text directly to you or your channel on Telegram."
+      },
+      {
+        "name": "liveedu-status",
+        "url": "https://github.com/johnnykramer/liveedu-status",
+        "desc": "npm package which can get status of LiveEdu channel."
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "projects": [
+      {
+        "name": "parse_smf_to_zoo",
+        "url": "https://github.com/johnnykramer/parse_smf_to_zoo",
+        "desc": "ruby-written parser for SMF forum pages to JSON format, well-ready to import to Joomla ZOO. Yep, thats shit :)"
+      }
+    ]
+  }
+]
